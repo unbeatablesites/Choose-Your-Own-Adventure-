@@ -10,8 +10,8 @@ public class App {
 
         if(input.equals("kitchen")){
             doKitchenLogic();
-        }else
-        doUpstairsLogic();
+        }else if(input.equals("downstaires")) {
+            doUpstairsLogic();}
     }
 
 
@@ -68,15 +68,13 @@ public class App {
         }
 
     public static void doUpstairsLogic() {
-        Scanner scan = new Scanner(System.in);
-        String input = scan.nextLine().toLowerCase();
 
-
-        if (input.equals("upstairs")) {
             System.out.println("Upstairs you see a hallway.  At the end of the hallway is the master\n" +
                     "\"bedroom\".  There is also a \"bathroom\" off the hallway.  Where would you like\n" +
                     "to go?");
-            input = scan.nextLine().toLowerCase();
+
+        Scanner scan = new Scanner(System.in);
+        String input = scan.nextLine().toLowerCase();
 
             if (input.equals("bedroom")) {
                 System.out.println("You are in a plush bedroom, with expensive-looking hardwood furniture.  The\n" +
@@ -109,4 +107,3 @@ public class App {
             }
         }
     }
-}
