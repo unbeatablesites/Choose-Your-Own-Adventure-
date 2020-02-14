@@ -35,9 +35,8 @@ public class App {
             input = scan.nextLine().toLowerCase();
 
             if (input.equals("refrigerator")) {
-                System.out.println("You are in a plush bedroom, with expensive-looking hardwood furniture.  The\n" +
-                        "bed is unmade.  In the back of the room, the closet door is ajar.  Would you\n" +
-                        "like to open the door? (\"yes\" or \"no\")");
+                System.out.println("Inside the refrigerator you see food and stuff.  It looks pretty nasty.\n" +
+                        "Would you like to eat some of the food? (\"yes\" or \"no\")");
 
                 input = scan.nextLine().toLowerCase();
 
