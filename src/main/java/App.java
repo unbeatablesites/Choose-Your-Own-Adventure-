@@ -39,6 +39,11 @@ public class App {
                 System.out.println("You are in a plush bedroom, with expensive-looking hardwood furniture.  The\n" +
                         "bed is unmade.  In the back of the room, the closet door is ajar.  Would you\n" +
                         "like to open the door? (\"yes\" or \"no\")");
+
+                input = scan.nextLine().toLowerCase();
+
+
+
             }
 
         }
