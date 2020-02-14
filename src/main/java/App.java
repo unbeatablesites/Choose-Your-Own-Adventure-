@@ -70,9 +70,9 @@ public class App {
 
 
         if (input.equals("upstairs")) {
-            System.out.println("There is a long counter top with dirty dishes everywhere.  Off to one side\n" +
-                    "there is, as you'd expect, a refrigerator. You may open the \"refrigerator\"\n" +
-                    "or look in a \"cabinet\".");
+            System.out.println("Upstairs you see a hallway.  At the end of the hallway is the master\n" +
+                    "\"bedroom\".  There is also a \"bathroom\" off the hallway.  Where would you like\n" +
+                    "to go?");
             input = scan.nextLine().toLowerCase();
 
             if (input.equals("refrigerator")) {
