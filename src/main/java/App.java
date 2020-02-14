@@ -23,8 +23,16 @@ public class App {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine().toLowerCase();
 
-        if(input.equals("upstairs")){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+        if(input.equals("upstairs")){
+            System.out.println("Upstairs you see a hallway.  At the end of the hallway is the master\n" +
+                    "\"bedroom\".  There is also a \"bathroom\" off the hallway.  Where would you like\n" +
+                    "to go?");
         }
 
 
