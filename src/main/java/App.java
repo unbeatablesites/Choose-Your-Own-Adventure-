@@ -1,10 +1,19 @@
+import javax.swing.*;
 import java.util.Scanner;
 
-public class App {
+public class App extends JFrame {
 
     public static void main(String[] args) {
+
+
+        JFrame f = new App();
+
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(300,200);
+        f.setVisible(true);
         askTheQuestion();
         doLogic();
+
     }
 
 
