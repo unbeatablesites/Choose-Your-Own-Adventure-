@@ -11,7 +11,7 @@ public class App {
     public static void askTheQuestion(){
         System.out.println("WELCOME TO MITCHELL'S TINY ADVENTURE!\n");
         try {
-            Thread.sleep(3000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -25,7 +25,7 @@ public class App {
         String input = scan.nextLine().toLowerCase();
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
