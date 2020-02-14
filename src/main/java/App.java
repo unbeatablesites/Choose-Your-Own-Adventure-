@@ -91,9 +91,9 @@ public class App {
                 }
             }
 
-            if (input.equals("cabinet")) {
-                System.out.println("Inside the cabinet you see a fully charged laptop.  Looks like someone installed intelliJ.\n" +
-                        "Would Would you like to code? (\"yes\" or \"no\")");
+            if (input.equals("bathroom")) {
+                System.out.println("Inside the bathroom you see a fully charged laptop.  I've always wanted to try, Python should we give it a shot?.\n" +
+                        "(\"yes\" or \"no\")");
 
                 input = scan.nextLine().toLowerCase();
 
