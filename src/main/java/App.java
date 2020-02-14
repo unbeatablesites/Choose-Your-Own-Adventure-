@@ -75,17 +75,19 @@ public class App {
                     "to go?");
             input = scan.nextLine().toLowerCase();
 
-            if (input.equals("refrigerator")) {
-                System.out.println("Inside the refrigerator you see food and stuff.  It looks pretty nasty.\n" +
-                        "Would you like to eat some of the food? (\"yes\" or \"no\")");
+            if (input.equals("bedroom")) {
+                System.out.println("You are in a plush bedroom, with expensive-looking hardwood furniture.  The\n" +
+                        "bed is unmade.  In the back of the room, the closet door is ajar.  Would you\n" +
+                        "like to open the door? (\"yes\" or \"no\")");
 
                 input = scan.nextLine().toLowerCase();
 
                 if (input.equals("no")) {
-                    System.out.println("You die of starvation... eventually.");
+                    System.out.println("Well, then I guess you'll never know what was in there.  Thanks for playing,\n" +
+                            "I'm tired of making nested if statements.");
                 }
                 if (input.equals("yes")) {
-                    System.out.println("You don't die of starvation... eventually.");
+                    System.out.println("Looks like a fully charged laptop and someone installed intelliJ. I'll code for a while.\n");
                 }
             }
 
