@@ -14,6 +14,7 @@ public class App {
             doUpstairsLogic();
         }else{
             System.out.println("Incorrect response please restart.");
+            System.exit(0);
         }
 
     }
