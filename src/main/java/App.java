@@ -6,13 +6,15 @@ public class App extends JFrame {
     public static void main(String[] args) {
 
 
-        JFrame f = new App();
+        String name = JOptionPane.showInputDialog("What is your name");
 
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setSize(300,200);
-        f.setVisible(true);
-        askTheQuestion();
-        doLogic();
+//        JFrame f = new App();
+//
+//        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        f.setSize(300,200);
+//        f.setVisible(true);
+//        askTheQuestion();
+//        doLogic();
 
     }
 
