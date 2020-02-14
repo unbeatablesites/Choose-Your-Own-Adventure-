@@ -101,7 +101,7 @@ public class App {
                     System.out.println("You should make tome to practice a new language so you stay sharp.");
                 }
                 if (input.equals("yes")) {
-                    System.out.println("I think this is the right decision so you stay sharp with code");
+                    System.out.println("I think this is the right decision so you stay sharp with code and learn something new");
                 }
             }
         }
