@@ -28,14 +28,16 @@ public class App {
     }
 
     public static void doKitchenLogic() {
+
+            System.out.println("There is a long counter top with dirty dishes everywhere.  Off to one side\n" +
+                    "there is, as you'd expect, a refrigerator. You may open the \"refrigerator\"\n" +
+                    "or look in a \"cabinet\".");
+
+
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine().toLowerCase();
 
 
-        if (input.equals("kitchen")) {
-            System.out.println("There is a long counter top with dirty dishes everywhere.  Off to one side\n" +
-                    "there is, as you'd expect, a refrigerator. You may open the \"refrigerator\"\n" +
-                    "or look in a \"cabinet\".");
             input = scan.nextLine().toLowerCase();
 
             if (input.equals("refrigerator")) {
