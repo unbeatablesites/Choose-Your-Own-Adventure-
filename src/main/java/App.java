@@ -42,8 +42,9 @@ public class App {
 
                 input = scan.nextLine().toLowerCase();
 
-
-
+                if(input.equals("no")){
+                    System.out.println("Well, then I guess you'll never know what was in there.  Thanks for playing,\n" +
+                            "I'm tired of making nested if statements.");
             }
 
         }
