@@ -33,6 +33,14 @@ public class App {
             System.out.println("Upstairs you see a hallway.  At the end of the hallway is the master\n" +
                     "\"bedroom\".  There is also a \"bathroom\" off the hallway.  Where would you like\n" +
                     "to go?");
+            input = scan.nextLine().toLowerCase();
+
+            if(input.equals("bedroom")){
+                System.out.println("You are in a plush bedroom, with expensive-looking hardwood furniture.  The\n" +
+                        "bed is unmade.  In the back of the room, the closet door is ajar.  Would you\n" +
+                        "like to open the door? (\"yes\" or \"no\")");
+            }
+
         }
 
 
