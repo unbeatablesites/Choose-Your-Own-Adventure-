@@ -38,8 +38,6 @@ public class App {
         String input = scan.nextLine().toLowerCase();
 
 
-            input = scan.nextLine().toLowerCase();
-
             if (input.equals("refrigerator")) {
                 System.out.println("Inside the refrigerator you see food and stuff.  It looks pretty nasty.\n" +
                         "Would you like to eat some of the food? (\"yes\" or \"no\")");
@@ -68,7 +66,6 @@ public class App {
                 }
             }
         }
-    }
 
     public static void doUpstairsLogic() {
         Scanner scan = new Scanner(System.in);
