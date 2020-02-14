@@ -4,9 +4,13 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-
+        Scanner scan = new Scanner(System.in);
         askTheQuestion();
-        doKitchenLogic();
+        String input = scan.nextLine().toLowerCase();
+
+        if(input.equals("kitchen")){
+            doKitchenLogic();
+        }else
         doUpstairsLogic();
     }
 
