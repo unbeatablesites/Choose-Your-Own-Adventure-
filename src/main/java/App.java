@@ -11,7 +11,11 @@ public class App {
         if(input.equals("kitchen")){
             doKitchenLogic();
         }else if(input.equals("downstaires")) {
-            doUpstairsLogic();}
+            doUpstairsLogic();
+        }else{
+            System.out.println("Incorrect response please restart.");
+        }
+
     }
 
 
