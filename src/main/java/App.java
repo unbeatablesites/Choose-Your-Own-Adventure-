@@ -18,10 +18,12 @@ public class App {
         System.out.println("You are in a creepy house!  Would you like to go \"upstairs\" or into the\n" +
                 "\"kitchen\"?");
 
-
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine().toLowerCase();
 
+    }
+
+    public static void doLogic(){
 
     }
 
